@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.img {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.heading {
+  color: #6d396b;
+  font-family: roboto;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: flex-end;
+}
+
+.txt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-container {
+  text-align: flex-end;
+}
